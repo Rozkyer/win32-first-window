@@ -56,7 +56,7 @@ LRESULT CALLBACK WinProc(HWND window, UINT message, WPARAM wParam, LPARAM lParam
 			EndPaint(window, &paint);
 			break;
 		case WM_DESTROY:
-			MessageBoxW(NULL, L"Tạm biệt", L"", MB_OK);
+			MessageBoxW(NULL, L"My time has come", L"Goodbye!!", MB_OK);
 			PostQuitMessage(0);
 			break;
 		default:
